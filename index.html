@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The salad Corner</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo">
+                <a href="#"><img src="images/logo.png" alt="logo" class="left-logo"></a>
+                <a href=""><img src="images/logo-cen.png" alt="Website Logo" class="center-logo"></a>
+            </div>
+        </nav>
+        <div class="slideshow">
+            <div class="slide-track" id="slideTrack">
+                <img src="images/img-1.jpg" alt="Image 1">
+                <img src="images/img-2.jpg" alt="Image 2">
+                <img src="images/img-3.jpg" alt="Image 3">
+                <img src="images/img-4.jpg" alt="Image 4">
+                <img src="images/img-5.jpg" alt="Image 5">
+                <img src="images/img-6.jpg" alt="Image 6">
+                <img src="images/img-7.jpg" alt="Image 7">
+                <img src="images/img-8.jpg" alt="Image 8">
+                <img src="images/img-9.jpg" alt="Image 9">
+                <img src="images/img-10.jpg" alt="Image 10">
+            </div>
+        </div>
+
+        <div class="category-navbar">
+            <ul class="category-list">
+                <li onclick="filterProducts('all')">All</li>
+                <li onclick="filterProducts('Salad')">Salad</li>
+                <li onclick="filterProducts('Sprouts')">Sprouts</li>
+                <li onclick="filterProducts('Bread')">Bread</li>
+                <li onclick="filterProducts('Gym Diet')">Gym Diet</li>
+            </ul>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search product...">
+                <!-- some extra method for search autometicly   onkeyup="searchProducts()"  -->
+                <button onclick="searchProducts()">🔍</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product List -->
+    <div class="product-container" id="productContainer">
+        <div class="product-card" data-category="Salad" onclick="openProduct(1)">
+            <img src="images/Quinoa Super Bowl.jfif" alt="">
+            <h3>Quinoa Super Bowl</h3>
+            <span class="price">₹159</span>
+        </div>
+        <div class="product-card" data-category="Salad" onclick="openProduct(2)">
+            <img src="images/Mexican Super Bowl.jfif" alt="">
+            <h3>Mexican Super Bowl</h3>
+            <span class="price">₹149</span>
+        </div>
+        <div class="product-card" data-category="Salad" onclick="openProduct(3)">
+            <img src="images/Chatpata Chana Salad.jfif" alt="">
+            <h3>Chatpata Chana Salad</h3>
+            <span class="price">₹129</span>
+        </div>
+        <div class="product-card" data-category="Salad" onclick="openProduct(4)">
+            <img src="images/Kidney Beans Salad.jfif" alt="">
+            <h3>Kidney Beans Salad</h3>
+            <span class="price">₹139</span>
+        </div>
+        <div class="product-card" data-category="Salad" onclick="openProduct(5)">
+            <img src="images/Protein Bomb Salad.jfif" alt="">
+            <h3>Protein Bomb Salad</h3>
+            <span class="price">₹149</span>
+        </div>
+        <div class="product-card" data-category="Salad" onclick="openProduct(6)">
+            <img src="images/Sprouts Salad.jfif" alt="">
+            <h3>Sprouts Salad</h3>
+            <span class="price">₹129</span>
+        </div>
+        <div class="product-card" data-category="Salad" onclick="openProduct(7)">
+            <img src="images/Sweet Corn Salad.jfif" alt="">
+            <h3>Sweet Corn Salad</h3>
+            <span class="price">₹129</span>
+        </div>
+        <div class="product-card" data-category="Salad" onclick="openProduct(8)">
+            <img src="images/Chickpea Salad.jfif" alt="">
+            <h3>Chickpea Salad</h3>
+            <span class="price">₹139</span>
+        </div>
+        <div class="product-card" data-category="Sprouts" onclick="openProduct(9)">
+            <img src="images/Masala Ankurit Chaat.jfif" alt="">
+            <h3>Masala Ankurit Chaat</h3>
+            <span class="price">₹60</span>
+        </div>
+        <div class="product-card" data-category="Sprouts" onclick="openProduct(10)">
+            <img src="images/Ankurit Chaat with fruits.jfif" alt="">
+            <h3>Ankurit Chaat with fruits</h3>
+            <span class="price">₹80</span>
+        </div>
+        <div class="product-card" data-category="Sprouts" onclick="openProduct(11)">
+            <img src="images/Ankurit Chaat with Paneer.jfif" alt="">
+            <h3>Ankurit Chaat with Paneer</h3>
+            <span class="price">₹99</span>
+        </div>
+        <div class="product-card" data-category="Sprouts" onclick="openProduct(12)">
+            <img src="images/Ankurit Chaat with Dry fruits.jfif" alt="">
+            <h3>Ankurit Chaat with Dry fruits</h3>
+            <span class="price">₹120</span>
+        </div>
+        <div class="product-card" data-category="Bread" onclick="openProduct(13)">
+            <img src="images/Veg Grild Sandwich.jfif" alt="">
+            <h3>Veg Grild Sandwich</h3>
+            <span class="price">₹80</span>
+        </div>
+        <div class="product-card" data-category="Bread" onclick="openProduct(14)">
+            <img src="images/Multigrane Bread Sandwich.jfif" alt="">
+            <h3>Multigrane Bread Sandwich</h3>
+            <span class="price">₹90</span>
+        </div>
+        <div class="product-card" data-category="Bread" onclick="openProduct(15)">
+            <img src="images/Paneer Masala Sandwich.jfif" alt="">
+            <h3>Paneer Masala Sandwich</h3>
+            <span class="price">₹110</span>
+        </div>
+        <div class="product-card" data-category="Bread" onclick="openProduct(16)">
+            <img src="images/Protien Sandwich.jfif" alt="">
+            <h3>Protien Sandwich</h3>
+            <span class="price">100</span>
+        </div>
+        <div class="product-card" data-category="Gym Diet" onclick="openProduct(4)">
+            <img src="images/Masala Oats.jfif" alt="">
+            <h3>Masala Oats</h3>
+            <span class="price">₹70</span>
+        </div>
+        <div class="product-card" data-category="Gym Diet" onclick="openProduct(17)">
+            <img src="images/Oats with banaba and Milk.jfif" alt="">
+            <h3>Oats with banaba and Milk</h3>
+            <span class="price">₹80</span>
+        </div>
+        <div class="product-card" data-category="Gym Diet" onclick="openProduct(18)">
+            <img src="images/Peanut Butter Oats.jfif" alt="">
+            <h3>Peanut Butter Oats</h3>
+            <span class="price">₹100</span>
+        </div>
+        <div class="product-card" data-category="Gym Diet" onclick="openProduct(19)">
+            <img src="images/Power Pack oats.jfif" alt="">
+            <h3>Power Pack oats</h3>
+            <span class="price">₹120</span>
+        </div>
+        <div class="product-card" data-category="Gym Diet" onclick="openProduct(20)">
+            <img src="images/Millet Upma.jfif" alt="">
+            <h3>Millet Upma</h3>
+            <span class="price">₹100</span>
+        </div>
+        <div class="product-card" data-category="Gym Diet" onclick="openProduct(21)">
+            <img src="images/Quinoa Upma.jfif" alt="">
+            <h3>Quinoa Upma</h3>
+            <span class="price">₹150</span>
+        </div>
+        <div class="product-card" data-category="Gym Diet" onclick="openProduct(22)">
+            <img src="images/Protein Chaat.jfif" alt="">
+            <h3>Protein Chaat</h3>
+            <span class="price">₹100</span>
+        </div>
+
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-top">
+            <p>HEARD ENOUGH? →</p>
+            <h2>Contact <span class="highlight">us</span></h2>
+            <div class="arrow-button">→</div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-column">
+                <img src="images/logo.png" alt="">
+            </div>
+
+            <div class="footer-column">
+                <h4>JAIPUR</h4>
+                <p>91-7372911749</p>
+                <p>Jeevan Rekha Marg, near R-Tech Capital mall, choraha, <br> Jagatpura, Jaipur, Shri Kishanpura,
+                    Rajasthan 302022</p>
+                <a href="">SEE ON MAP →</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>THE SALAD CORNER</h4>
+                <h4>FOLLOW US</h4>
+                <div class="social-icons">
+                    <a href="#">🅱</a>
+                    <a href="#">⚽</a>
+                    <a href="#">📷</a>
+                    <a href="#">🔗</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
