@@ -112,113 +112,108 @@ const products = {
         rating: "⭐ 4.5"
     },
     11: {
-        name: "Product Name 1",
-        image: "img-1.jpg",
-        category: "category-1",
-        description: "Delicious cheeseburger with fresh lettuce and tomatoes.",
-        price: "₹120",
-        rating: "⭐ 4.5",
-        ingredients: "Bun, Cheese, Lettuce, Tomato, Patty",
-        title: "Product Name 1"
+        name: "Ankurit Chaat with Paneer",
+        image: "images/Ankurit Chaat with Paneer.jfif",
+        category: "Sprouts",
+        description: " Perky paneer cutlets with an indulgent dry fruit centre, are a real melt-in-the-mouth treat. When topped with a mixture of green peas with other flavourful ...",
+        price: "₹99",
+        rating: "⭐ 4.5"
     },
     12: {
-        name: "Product Name 2",
-        image: "img-2.jpg",
-        category: "category-2",
-        description: "Crispy crust pizza with mozzarella cheese and pepperoni.",
-        price: "₹250",
-        rating: "⭐ 4.8",
-        ingredients: "Dough, Tomato Sauce, Cheese, Pepperoni"
+        name: "Ankurit Chaat with Dry fruits",
+        image: "images/Ankurit Chaat with Dry fruits.jfif",
+        category: "Sprouts",
+        description: "Dry fruit chaat with hot chai during the rains is a perfect home-made snack. It can also be served as a starter in large gatherings.",
+        price: "₹120",
+        rating: "⭐ 4.8"
     },
     13: {
-        name: "Product Name 3",
-        image: "img-3.jpg",
-        category: "category-3",
-        description: "Creamy alfredo pasta with mushrooms and parmesan.",
-        price: "₹180",
-        rating: "⭐ 4.7",
-        ingredients: "Pasta, Cream, Garlic, Parmesan, Mushrooms"
+        name: "Veg Grild Sandwich",
+        image: "images/Veg Grild Sandwich.jfif",
+        category: "Bread",
+        description: "This Indian street food favorite is filled with spiced cilantro chutney and delicious vegetables, then grilled to perfection.",
+        price: "₹80",
+        rating: "⭐ 4.7"
     },
     14: {
-        name: "Product Name 4",
-        image: "img-4.jpg",
-        category: "category-4",
-        description: "Delicious cheeseburger with fresh lettuce and tomatoes.",
-        price: "₹120",
-        rating: "⭐ 4.5",
-        ingredients: "Bun, Cheese, Lettuce, Tomato, Patty"
+        name: "Multigrane Bread Sandwich",
+        image: "images/Multigrane Bread Sandwich.jfif",
+        category: "Bread",
+        description: "A multigrain veg sandwich is a wholesome and nutritious option, made with slices of hearty multigrain bread. It's layered with fresh vegetables",
+        price: "₹90",
+        rating: "⭐ 4.5"
     },
     15: {
-        name: "Product Name 5",
-        image: "img-5.jpg",
-        category: "category-5",
-        description: "Crispy crust pizza with mozzarella cheese and pepperoni.",
-        price: "₹250",
-        rating: "⭐ 4.8",
-        ingredients: "Dough, Tomato Sauce, Cheese, Pepperoni"
+        name: "Paneer Masala Sandwich",
+        image: "images/Paneer Masala Sandwich.jfif",
+        category: "Bread",
+        description: "Paneer Sandwich is a quick, delicious and protein-packed Indian sandwich made with crumbled paneer (Indian cheese), spices, veggies, herbs and bread.",
+        price: "₹110",
+        rating: "⭐ 4.8"
     },
     16: {
-        name: "Product Name 6",
-        image: "img-6.jpg",
-        category: "category-5",
-        description: "Creamy alfredo pasta with mushrooms and parmesan.",
-        price: "₹180",
-        rating: "⭐ 4.7",
-        ingredients: "Pasta, Cream, Garlic, Parmesan, Mushrooms"
+        name: "Protien Sandwich",
+        image: "images/Protien Sandwich.jfif",
+        category: "Bread",
+        description: "A healthy, crunchy, and tasty, quick High protein vegetable sandwich. Prepared with Multigrain bread its is rich in fibers and many nutrients.",
+        price: "₹100",
+        rating: "⭐ 4.7"
     },
     17: {
-        name: "Product Name 7",
-        image: "img-7.png",
-        category: "category-4",
-        description: "Delicious cheeseburger with fresh lettuce and tomatoes.",
-        price: "₹120",
-        rating: "⭐ 4.5",
-        ingredients: "Bun, Cheese, Lettuce, Tomato, Patty"
+        name: "Masala Oats",
+        image: "images/Masala Oats.jfif",
+        category: "GYM Diet",
+        description: " Masala Oats is simply oatmeal cooked with Indian masala (spices) in desi style. You can make it plain or with vegetables, leafy greens and herbs ...",
+        price: "₹70",
+        rating: "⭐ 4.5"
     },
     18: {
-        name: "Product Name 8",
-        image: "img-8.jpg",
-        category: "category-3",
-        description: "Crispy crust pizza with mozzarella cheese and pepperoni.",
-        price: "₹250",
-        rating: "⭐ 4.8",
-        ingredients: "Dough, Tomato Sauce, Cheese, Pepperoni"
+        name: "Oats with banaba and Milk",
+        image: "images/Oats with banaba and Milk.jfif",
+        category: "GYM Diet",
+        description: "This delectable breakfast is made up of oatmeal with low-fat milk which is sure to boost up your energy. Along with banana slices, honey and ...",
+        price: "₹80",
+        rating: "⭐ 4.8"
     },
     19: {
-        name: "Product Name 9",
-        image: "img-9.jpg",
-        category: "category-2",
-        description: "Creamy alfredo pasta with mushrooms and parmesan.",
-        price: "₹180",
-        rating: "⭐ 4.7",
-        ingredients: "Pasta, Cream, Garlic, Parmesan, Mushrooms"
+        name: "Peanut Butter Oats",
+        image: "images/Peanut Butter Oats.jfif",
+        category: "GYM Diet",
+        description: " Nutritious – Between the oats, chia seeds and peanut butter, this bowl is loaded with fiber, healthy fats and protein. Customizable – Whether ...",
+        price: "₹100",
+        rating: "⭐ 4.7"
     },
     20: {
-        name: "Product Name 10",
-        image: "img-10.jpg",
-        category: "category-1",
-        description: "Delicious cheeseburger with fresh lettuce and tomatoes.",
+        name: "Power Pack oats",
+        image: "images/Power Pack oats.jfif",
+        category: "GYM Diet",
+        description: "Power Oats are Ready To Eat and rich in nutrients making them a quick & wholesome meal. With 18G Protein, High Fibre & Zero Added Sugar",
         price: "₹120",
-        rating: "⭐ 4.5",
-        ingredients: "Bun, Cheese, Lettuce, Tomato, Patty"
+        rating: "⭐ 4.5"
     },
     21: {
-        name: "Product Name 10",
-        image: "img-10.jpg",
-        category: "category-1",
-        description: "Delicious cheeseburger with fresh lettuce and tomatoes.",
-        price: "₹120",
-        rating: "⭐ 4.5",
-        ingredients: "Bun, Cheese, Lettuce, Tomato, Patty"
+        name: "Millet Upma",
+        image: "images/Millet Upma.jfif",
+        category: "GYM Diet",
+        description: "Little Millet Upma is a wholesome breakfast or dinner dish that can be made with just a few ingredients in less than 30 minutes.",
+        price: "₹100",
+        rating: "⭐ 4.5"
     },
     22: {
-        name: "Product Name 10",
-        image: "img-10.jpg",
-        category: "category-1",
-        description: "Delicious cheeseburger with fresh lettuce and tomatoes.",
-        price: "₹120",
-        rating: "⭐ 4.5",
-        ingredients: "Bun, Cheese, Lettuce, Tomato, Patty"
+        name: "Quinoa Upma",
+        image: "images/Quinoa Upma.jfif",
+        category: "GYM Diet",
+        description: "Quinoa Upma is a South Indian Upma variety made with quinoa, tempering spices, curry leaves, mixed vegetables and cashew nuts (optional).",
+        price: "₹150",
+        rating: "⭐ 4.5"
+    },
+    23: {
+        name: "Protein Chaat",
+        image: "images/Protein Chaat.jfif",
+        category: "GYM Diet",
+        description: "This easy-to-make chaat dip combines the creamy texture of yogurt with the crunch of sprouted lentils or beans, potatoes, onions, and chutneys",
+        price: "₹100",
+        rating: "⭐ 4.5"
     }
 };
 
@@ -239,6 +234,10 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("product-description").innerText = product.description;
             document.getElementById("product-price").innerText = product.price;
             document.getElementById("product-rating").innerText = product.rating;
+            // Order Popup Data
+            document.getElementById("popup-product-name").innerText = product.name;
+            document.getElementById("popup-product-price").innerText = product.price.replace("₹", ""); // Remove ₹ sign
+            document.getElementById("total-price").innerText = product.price.replace("₹", ""); // Initial Price
         }
     }
 });
@@ -270,4 +269,55 @@ function searchProducts() {
             product.style.display = "none"; // Hide product if name does not match
         }
     });
+}
+
+// Open Order Popup
+function openOrderPopup() {
+    document.getElementById("orderPopup").style.display = "flex";
+}
+
+// Close Order Popup
+function closeOrderPopup() {
+    document.getElementById("orderPopup").style.display = "none";
+}
+
+// Change Quantity and Update Price
+function changeQuantity(value) {
+    let quantityInput = document.getElementById("product-quantity");
+    let totalPrice = document.getElementById("total-price");
+    let basePrice = parseFloat(document.getElementById("popup-product-price").innerText); // Get base price
+
+    let newQuantity = parseInt(quantityInput.value) + value;
+    if (newQuantity < 1) newQuantity = 1; // Prevent negative quantity
+
+    quantityInput.value = newQuantity;
+    totalPrice.innerText = (basePrice * newQuantity).toFixed(2); // Update price
+}
+
+// Place Order and Show Thank You Message
+function placeOrder() {
+    let orderContent = document.querySelector(".order-content");
+    
+    // Change content to "Thank You" message
+    orderContent.innerHTML = `
+        <h2>Thank You!</h2>
+        <p>Your order has been placed successfully. 😊</p>
+    `;
+
+    // Close popup after 5 seconds
+    setTimeout(closeOrderPopup, 5000);
+}
+
+// Toggle Mobile Menu
+function toggleMenu() {
+    let menu = document.getElementById("categoryMenu");
+    let menuToggle = document.getElementById("menuToggle");
+
+    if (menu.classList.contains("active")) {
+        menu.classList.remove("active");
+        menuToggle.innerText = "☰"; // Change back to hamburger
+    } else {
+        menu.classList.add("active");
+        menuToggle.innerText = "✖"; // Change to cross when menu is open
+    }
 }
